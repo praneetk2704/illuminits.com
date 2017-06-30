@@ -1,0 +1,422 @@
+<!doctype html>
+
+ <html lang="en">
+
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <title>Events | Others</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- Bootstrap -->
+  <link href="CSS/Bootstrap3d7.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">  
+<style type="text/css">
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+  body {
+  margin: 50px 0;
+}
+
+
+.ticker-headline {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 15px 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+.carousel.vertical .carousel-inner {
+  height: 100%;
+  width: auto;
+}
+.carousel.vertical .carousel-inner > .item {
+  width: auto;
+  padding-right: 50px;
+  -webkit-transition: 0.6s ease-in-out top;
+  transition: 0.6s ease-in-out top;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel.vertical .carousel-inner > .item {
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+  }
+  .carousel.vertical .carousel-inner > .item.next, .carousel.vertical .carousel-inner > .item.active.right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+    top: 0;
+  }
+  .carousel.vertical .carousel-inner > .item.prev, .carousel.vertical .carousel-inner > .item.active.left {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+    top: 0;
+  }
+  .carousel.vertical .carousel-inner > .item.next.left, .carousel.vertical .carousel-inner > .item.prev.right, .carousel.vertical .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    top: 0;
+  }
+}
+.carousel.vertical .carousel-inner > .active,
+.carousel.vertical .carousel-inner > .next,
+.carousel.vertical .carousel-inner > .prev {
+  display: block;
+}
+.carousel.vertical .carousel-inner > .active {
+  top: 0;
+}
+.carousel.vertical .carousel-inner > .next,
+.carousel.vertical .carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.carousel.vertical .carousel-inner > .next {
+  top: 100%;
+}
+.carousel.vertical .carousel-inner > .prev {
+  top: -100%;
+}
+.carousel.vertical .carousel-inner > .next.left,
+.carousel.vertical .carousel-inner > .prev.right {
+  top: 0;
+}
+.carousel.vertical .carousel-inner > .active.left {
+  top: -100%;
+}
+.carousel.vertical .carousel-inner > .active.right {
+  top: 100%;
+}
+
+.carousel.vertical .carousel-control {
+  left: auto;
+  width: 50px;
+}
+.carousel.vertical .carousel-control.up {
+  top: 0;
+  right: 0;
+  bottom: 50%;
+}
+.carousel.vertical .carousel-control.down {
+  top: 50%;
+  right: 0;
+  bottom: 0;
+}
+.carousel.vertical .carousel-control .icon-prev,
+.carousel.vertical .carousel-control .icon-next,
+.carousel.vertical .carousel-control .glyphicon-chevron-up,
+.carousel.vertical .carousel-control .glyphicon-chevron-down {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.carousel.vertical .carousel-control .icon-prev,
+.carousel.vertical .carousel-control .glyphicon-chevron-up {
+  left: 50%;
+  margin-left: -10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.carousel.vertical .carousel-control .icon-next,
+.carousel.vertical .carousel-control .glyphicon-chevron-down {
+  left: 50%;
+  margin-left: -10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.carousel.vertical .carousel-control .icon-up,
+.carousel.vertical .carousel-control .icon-down {
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+  font-family: serif;
+}
+.carousel.vertical .carousel-control .icon-prev:before {
+  content: '\2039';
+}
+.carousel.vertical .carousel-control .icon-next:before {
+  content: '\203a';
+}
+</style>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+
+
+  <script type="text/javascript" src="js/vue.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="CSS/jQuery UI.css"/>
+  <link rel="stylesheet" type="text/css" href="CSS/Loader2.css"/>
+  <link rel="stylesheet" type="text/css" href="CSS/hover.css"/>
+  <link rel="stylesheet" type="text/css" href="CSS/Header.css"/>
+  <link rel="stylesheet" type="text/css" href="CSS/Dropdown Menu.css"/>
+  
+<link rel="stylesheet"  href="CSS/animate.css"/>
+  <link rel="stylesheet" type="text/css" href="CSS/Home.css"/>
+  <link rel="stylesheet" href="CSS/demo.css">
+  <link rel="stylesheet" href="CSS/footer-distributed-with-address-and-phones.css">
+
+
+
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+</head>
+
+<body >
+  <!-- Page loading -->
+  <div id="loader-wrapper">
+   <div id="loader"></div>
+ </div>
+
+ <!-- Logo -->
+ 
+  <div class= "container-fluid">
+   <div class="row">
+     <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"> 
+      <img src="Pictures/Illuminits_Logo.jpg" id="imglogo" ></img>
+    </div>
+
+    <div class="col-lg-8 col-md-8"> 
+      <p id="About1">ILLUMINITS : Literary, Publication & Fine Arts Society</p>
+      <p id="About2">National Institute of Technology, Silchar</p>
+    </div>
+    <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"> 
+      <img src="Pictures/NITS_Logo.png" id="imglogo" visible-md visible-lg  class="pull-right" ></img>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="History.html">History</a></li>
+   <li><a href="clubs.html">Clubs</a></li>
+  
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Parlare.html">Parlare</a></li>
+    <li><a href="hindidiwas.html">Hindi Diwas</a></li>
+    <li><a href="Deprador.html">Deprador</a></li>
+    <li><a href="speakup.html">Speak Up</a></li>
+    <li><a href="Bonfire.html">Bonfire GD</a></li>
+
+      <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Other Events <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+    <li><a href="otherevents.html">Rabindranath Thakur Memorial Day</a></li>
+    <li><a href="otherevents2.html">Vigilance Awareness Week</a></li>
+            </ul>
+      </li>
+      </ul>
+        
+
+
+<li><a href="Articles.html">Articles</a></li>  
+
+
+
+     
+       
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Downloads<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+    <li><a href="https://drive.google.com/file/d/0B5wuVWvQHwxYYUhWSV84eDNsdGs/view">NITScoop 15-16</a></li>
+		  <li><a href="https://drive.google.com/file/d/0B5wuVWvQHwxYYUhWSV84eDNsdGs/view">NITScoop 14-15</a></li>
+		<li><a href="https://drive.google.com/file/d/0B5wuVWvQHwxYYUhWSV84eDNsdGs/view">IGNITS 14-15</a></li>
+  
+      </ul>
+    </li>
+  
+ <li><a href="Team.html">Team</a></li>  
+
+
+
+
+
+
+      </ul>
+   
+      
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class = "container-fluid">
+<div class = "jumbotron">
+<div class="row">
+ <img class = "pull-right" width = "40%" src="Pictures/Vigilance_Logo.jpg"></img>
+ <h1  >Vigilance Awareness Week</h1> 
+<p style="text-align: justify; max-width: 55%  ">The Central Vigilance Commission, as part of its efforts to promote probity in public life and to achieve a corruption free society, 
+observes Vigilance Awareness Week every year from October 31 across India. 
+"Public participation in promoting integrity and eradicating corruption" had been chosen as the theme for Vigilance Awareness Week by the Commission this year. 
+During the week, several competitions were organized in NIT Silchar, viz. inter college debate, poster making, 
+power point presentation and essay writing to generate awareness among the students who have an important role to play in promoting 
+integrity as well as in the eradication of corruption.
+</p>
+</div>
+<br>  
+<div class="bg-info">
+  <div class="container">
+    <div id="carousel-example-vertical" class="carousel vertical slide">
+      <div class="carousel-inner" role="listbox">
+     
+        <div class="item active">
+            <img src="Pictures/Vigilance/Vigilance1.jpg">
+        </div>
+       <div class="item">
+           <img src="Pictures/Vigilance/Vigilance2.jpg">
+        </div>  <div class="item">
+            <img src="Pictures/Vigilance/Vigilance3.jpg">
+        </div>  <div class="item">
+     <img src="Pictures/Vigilance/Vigilance4.jpg">
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="up carousel-control" href="#carousel-example-vertical" role="button" data-slide="prev" >
+        <span class="glyphicon glyphicon-chevron-up" aria-hidden="true" style="color:black"></span>
+        <span class="sr-only">Previous</span>
+      <a class="down carousel-control" href="#carousel-example-vertical" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="color:black"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+    
+  
+  <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3><span>ILLUMINITS</span></h3>
+
+        <p class="footer-links">
+          <a href="index.html">Home</a>
+          ·
+          <a href="clubs.html">Clubs</a>
+          ·
+          <a href="Deprador.html">Events</a>
+          ·
+          <a href="Team.html">Team</a>
+          ·
+          
+          ·
+          <a href="#"></a>
+        </p>
+
+        <p class="footer-company-name">ILLUMINITS &copy; 2017</p>
+
+<p class="footer-links">
+          <a href="Web_Team.html">Website Team</a>
+          </p>
+
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>NIT SILCHAR </span> Silchar,Assam,India</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p> 8135044969</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">literary.nits@outlook.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About ILLUMINITS</span>
+          <b>Illuminating the intelligentsia</b> of NIT Silchar is what ILLUMINITS is all about. With the aim of improving 
+and promoting literature and fine arts, this society has been striding towards the zenith since its 
+inception.    
+<br>
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="https://www.facebook.com/Illumunits/?fref=ts"><i class="fa fa-facebook"></i></a>
+          
+        
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="jQuery/jQuery UI.js"></script>
+<script type="text/javascript" src="jQuery/Bootstrap.js"></script>
+<script type="text/javascript">
+  $('.collapse').on('shown.bs.collapse', function () {
+    $(this).parent().find('.glyphicon-plus-sign')
+    .removeClass('glyphicon-plus-sign')
+    .addClass('glyphicon-minus-sign');
+  }).on('hidden.bs.collapse', function () {
+    $(this).parent().find(".glyphicon-minus-sign")
+    .removeClass("glyphicon-minus-sign")
+    .addClass("glyphicon-plus-sign");
+  });
+
+  $('#btnExpandAll').click(function () {
+    $('.panel-collapse.collapse').collapse('show');
+  });
+
+  $('#btnCollapseAll').click(function () {
+    $('.panel-collapse.collapse.in').collapse('hide');
+  });
+</script>
+<script type="text/javascript" src="jQuery/jQuery.js"></script>
+<script type="text/javascript" src="jQuery/Loader.js"></script>
+<script type="text/javascript" src="jQuery/Modernizer.js"></script>
+<script type="text/javascript" src="jQuery/Slideshow.js"></script>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+</body>
+
+</html>

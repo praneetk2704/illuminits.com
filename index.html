@@ -1,0 +1,464 @@
+<!-- Website Credits
+
+     Praneet Kumar
+	 B.Tech (CSE), Class of 2019, NIT Silchar
+	 https://www.facebook.com/praneetk2704
+	 
+	 Tarun Singhania
+	 B.Tech (ECE), Class of 2020, NIT Silchar
+	 https://www.facebook.com/TARUNSINGHANIA1998?ref=br_tf
+     -->
+<!doctype html>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<title>ILLUMINITS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- Bootstrap -->
+    <link href="CSS/Bootstrap.css" rel="stylesheet">
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" />
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">  
+<style type="text/css">
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+	.container1 {
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.carousel2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.itemA {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px; 
+padding: 60px;
+   font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+  background: #ed1c24;
+}
+.b {
+  transform: rotateY(60deg) translateZ(250px);
+  background: #0072bc;
+}
+.c {
+  transform: rotateY(120deg) translateZ(250px);
+  background: #39b54a;
+}
+.d {
+  transform: rotateY(180deg) translateZ(250px);
+  background: #f26522;
+}
+.e {
+  transform: rotateY(240deg) translateZ(250px);
+  background: #630460;
+} 
+.f {
+  transform: rotateY(300deg) translateZ(250px);
+  background: #8c6239;
+}
+
+.next, .prev {
+  color: #444;
+ text-align: center;
+ margin: auto auto;
+  padding: 10px;
+  cursor: pointer;
+  background: #CCC;
+  border-radius: 5px;
+  border-top: 1px solid #FFF;
+  box-shadow: 0 5px 0 #999;
+  transition: box-shadow 0.1s, top 0.1s;
+}
+.next:hover, .prev:hover { color: #000; }
+.next:active, .prev:active {
+  top: 104px;
+  box-shadow: 0 1px 0 #999;
+}
+.next { right: 5em; }
+.prev { left: 5em; }
+</style>
+<link rel="stylesheet" type="text/css" href="CSS/first.css"/>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  
+
+<link rel="stylesheet" type="text/css" href="CSS/animate.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/jQuery UI.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/Loader.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/Header.css"/>
+
+<link rel="stylesheet" type="text/css" href="CSS/Dropdown Menu.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/Slideshow.css"/>
+<link rel="stylesheet" type="text/css" href="CSS/Home.css"/>
+<link rel="stylesheet" href="CSS/demo.css">
+	<link rel="stylesheet" href="CSS/footer-distributed-with-address-and-phones.css">
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+
+	<link rel="shortcut icon" href="favicon.ico" />
+
+</head>
+
+<body >
+
+
+
+
+
+
+
+<!-- Page loading -->
+<div id="loader-wrapper">
+	<div id="loader"></div>
+</div>
+
+<!-- Logo -->
+<div class= "jumbotron">
+  <div class= "container-fluid">
+       <div class="row">
+               <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"> 
+                    <img src="Pictures/Illuminits_Logo.png" id="imglogo" ></img>
+               </div>
+ 
+                          <div class="col-lg-8 col-md-8"> 
+                              <p id="About1" class="animated  bounceInLeft">ILLUMINITS : Literary, Publication & Fine Arts Society</p>
+                                   <p id="About2" class="animated bounceInRight">National Institute of Technology, Silchar</p>
+                          </div>
+               <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"> 
+                        <img src="Pictures/NITS_Logo.png" id="imglogo" visible-md visible-lg  class="pull-right " ></img>
+                </div>
+</div>
+</div>
+</div>
+	
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+	            <li><a href="History.html">History</a></li>
+	 <li><a href="clubs.html">Clubs</a></li>
+	
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Parlare.html">Parlare</a></li>
+		<li><a href="hindidiwas.html">Hindi Diwas</a></li>
+		<li><a href="Deprador.html">Deprador</a></li>
+		<li><a href="speakup.html">Speak Up</a></li>
+		<li><a href="Bonfire.html">Bonfire GD</a></li>
+
+		  <li class="dropdown">
+		      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Other Events <span class="caret"></span></a>
+		      <ul class="dropdown-menu">
+		<li><a href="otherevents.html">Rabindranath Thakur Memorial Day</a></li>
+		<li><a href="otherevents2.html">Vigilance Awareness Week</a></li>
+            </ul>
+		  </li>
+		  </ul>
+        
+
+
+<li><a href="Articles.html">Articles</a></li>  
+
+
+
+		 
+       
+	        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Downloads<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+		  <li><a href="https://drive.google.com/open?id=0B7miGok1N3hfNHVmbGVQUnJpNUU">NITScoop 15-16</a></li>
+		  <li><a href="https://drive.google.com/open?id=0B7miGok1N3hfekk1d29Vb3dIdlE">NITScoop 14-15</a></li>
+		<li><a href="https://drive.google.com/file/d/0B5wuVWvQHwxYYUhWSV84eDNsdGs/view">IGNITS 14-15</a></li>
+	
+      </ul>
+    </li>
+	
+ <li><a href="Team.html">Team</a></li>  
+
+
+
+
+
+
+      </ul>
+   
+      
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- carosel -->
+<div class="jumbotron">
+<div class="container-fluid">
+			<div class="carousel slide" data-ride="carousel" id="carousel-ex">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-ex" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-ex" data-slide-to="1"></li>
+					<li data-target="#carousel-ex" data-slide-to="2"></li>
+					<li data-target="#carousel-ex" data-slide-to="3"></li>
+					<li data-target="#carousel-ex" data-slide-to="4"></li>
+					<li data-target="#carousel-ex" data-slide-to="5"></li>
+					<li data-target="#carousel-ex" data-slide-to="6"></li>
+					<li data-target="#carousel-ex" data-slide-to="7"></li>
+					<li data-target="#carousel-ex" data-slide-to="8"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="Pictures/Picture5.jpg">
+						<div class="carousel-caption">
+							
+						</div>
+					</div>
+					<div class="item">
+						<img src="Pictures/Picture4.jpg">
+						<div class="carousel-caption">
+						
+						</div>
+					</div>
+					<div class="item">
+						<img src="Pictures/Picture3.jpg">
+						<div class="carousel-caption">
+						
+						</div>
+					</div>
+					<div class="item">
+						<img src="Pictures/Picture2.jpg">
+						<div class="carousel-caption">
+						
+						</div>
+					</div>
+					<div class="item">
+						<img src="Pictures/Picture1.jpg">
+						<div class="carousel-caption">
+						
+						</div>
+					</div>
+						<div class="item">
+						<img src="Pictures/6.jpg">
+						<div class="carousel-caption">
+						
+						</div>
+					</div>
+						<div class="item">
+						<img src="Pictures/7.jpg">
+						<div class="carousel-caption">
+						
+						</div>
+					</div>	<div class="item">
+						<img src="Pictures/8.jpg">
+						<div class="carousel-caption">
+						
+						</div>	
+						</div>
+						<div class="item">
+						<img src="Pictures/9.jpg">
+						<div class="carousel-caption">
+						
+						</div>
+					</div>
+					</div>
+					
+					<a href="#carousel-ex" class="left carousel-control" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#carousel-ex" class="right carousel-control" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			</div>
+		</div><!--flui-->
+		</div>
+		
+
+
+
+
+
+<div class="container">
+		<div class = "row" >
+		<div class = "col-lg-8">
+		<p class="para" style=" line-height: 300%; font-size: 20px ; text-align: justify ; "> 
+<b>Illuminating the intelligentsia</b> of NIT Silchar is what ILLUMINITS is all about. With the aim of improving 
+and promoting literature and fine arts, this society has been striding towards the zenith since its 
+inception. Running under the chairmanship of Prof Nalin Behari Dev Choudhury, and under the aegis of 
+the present Literary, Publication, and Fine Arts Secretary, Dev Manas; ILLUMINITS is the one of the most 
+prominent and active societies of NIT Silchar.
+<br></p>
+
+
+  </div>
+  <div class = "col-lg-4">
+<div class="well">
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FIlluminits%2F%3Ffref%3Dts&tabs=timeline&width=350&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+ width="350" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+</div>
+</div>	
+</div>
+</div>
+<br>
+<br>
+
+
+
+
+
+		
+	
+	<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3><span>ILLUMINITS</span></h3>
+
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="clubs.html">Clubs</a>
+					·
+					<a href="Deprador.html">Events</a>
+					·
+					<a href="Team.html">Team</a>
+					·
+					
+					·
+					<a href="#"></a>
+				</p>
+
+				<p class="footer-company-name">ILLUMINITS &copy; 2017</p>
+
+<p class="footer-links">
+					<a href="Web_Team.html">Website Team</a>
+					</p>
+
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>NIT SILCHAR </span> Silchar,Assam,India</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p> 8135044969</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">illuminits.nits@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About ILLUMINITS</span>
+					<b>Illuminating the intelligentsia</b> of NIT Silchar is what ILLUMINITS is all about. With the aim of improving 
+and promoting literature and fine arts, this society has been striding towards the zenith since its 
+inception.		
+<br>
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/Illuminits/?fref=ts"><i class="fa fa-facebook"></i></a>
+					
+				
+
+				</div>
+
+			</div>
+
+		</footer>
+
+
+
+
+    
+	
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	var carousela = $(".carousel2"),
+    currdeg  = 0;
+
+$(".next").on("click", { d: "n" }, rotate);
+$(".prev").on("click", { d: "p" }, rotate);
+
+function rotate(e){
+  if(e.data.d=="n"){
+    currdeg = currdeg - 60;
+  }
+  if(e.data.d=="p"){
+    currdeg = currdeg + 60;
+  }
+  carousela.css({
+    "-webkit-transform": "rotateY("+currdeg+"deg)",
+    "-moz-transform": "rotateY("+currdeg+"deg)",
+    "-o-transform": "rotateY("+currdeg+"deg)",
+    "transform": "rotateY("+currdeg+"deg)"
+  });
+}
+</script>
+
+<script type="text/javascript" src="jQuery/jQuery UI.js"></script>
+<script type="text/javascript" src="jQuery/Bootstrap.js"></script>
+<script type="text/javascript" src="jQuery/jQuery.js"></script>
+<script type="text/javascript" src="jQuery/Loader.js"></script>
+<script type="text/javascript" src="jQuery/Modernizer.js"></script>
+<script type="text/javascript" src="jQuery/Slideshow.js"></script>
+<script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+</body>
+
+</html>
