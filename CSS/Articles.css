@@ -1,0 +1,157 @@
+#Title
+{
+
+  max-width : 600px;
+  top : 33.5%;
+  left : 47%;
+}
+#Title p
+{
+  font-size : 40px;
+  text-align : center;
+}
+.sexy_line 
+{ 
+    left : 22%;
+    position : relative;
+    top : 275px;
+    height: 1px;
+	max-width : 800px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+.Articles
+{
+  top : 50%;
+  left : 6%;
+
+}
+.Article
+{
+  font-size : 24px;  
+  font-family : Tahoma;
+  color : #228B22;
+}
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+	z-index : 100;
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:900px;
+	max-height : 600px;
+	overflow : auto;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#36648B;
+	color : white;
+	text-align : justify;
+	z-index : 100;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+#content
+{
+  font-size : 20px;
+  color : white;
+}
+#content a
+{
+  font-size : 20px;
+  color : white;
+}
+#Close
+{
+  height : 30px;
+  width : 30px;
+  bottom : 0px;
+  -webkit-transition : -webkit-transform 0.5s;
+}
+#Close:hover
+{
+  -webkit-transform : rotate(90deg);
+}
+#Footer
+{
+  padding : 25px;
+  font-weight : Bold;
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 590px;
+  position : absolute;
+  text-align : center;
+  height : 220px;
+  width : 100%;
+  background-color : black;
+}
+#FooterFB
+{
+  top : 640px;
+  position : absolute;
+  display : block;
+  height : 35px;
+  width : 35px;
+  left : 12%;
+  -webkit-transition : -webkit-transform 1s;
+}
+#FooterFB:hover
+{
+  -webkit-transform : rotate(360deg);
+}
+#Email
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 760px;
+  left : 3%;
+  position : absolute;
+}
+#Team
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 700px;
+  left : 9%;
+  position : absolute;
+}
+#Team:hover
+{
+  color : orange;
+}
+#map {
+        position: relative;
+        
+      }
+#map iframe {
+        position: absolute;
+        top: 600px;
+        left: 75%;;
+        width: 300px !important;
+        height: 200px !important;
+    }

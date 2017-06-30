@@ -1,0 +1,51 @@
+#Illuminits
+{
+  position: absolute;
+  max-width : 120px;
+  max-height : 120px;
+  top : 20px;
+  left : 3%;
+}
+#imglogo {
+ max-width : 120px;
+  max-height : 120px;
+  align:left;
+}
+
+#Gymkhana
+{
+  position: absolute;
+  max-width : 120px;
+  max-height : 120px;
+  top : 20px;
+  left : 86%;
+}
+#FB
+{
+  position : absolute;
+  display : block;
+  height : 35px;
+  width : 35px;
+  top : 4px;
+  left : 95%;
+  -webkit-transition : -webkit-transform 1s;
+}
+#FB:hover
+{
+  -webkit-transform : rotate(360deg);
+}
+#About1
+{
+ 
+  font-size : 30px;
+ 
+ 
+  color : #DC143C;
+}
+#About2
+{
+
+  font-size : 20px;
+  
+  color : #1874CD;
+}

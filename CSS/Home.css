@@ -1,0 +1,152 @@
+
+#LineBreak
+{
+  position : absolute;
+  top : 665px;
+  max-width : 1530px;
+  left : 4%;
+  right : 4%;
+  height : 2px;
+}
+#About
+{
+  position : absolute;
+  top : 700px;
+  left : 3.5%;
+  right : 4%;
+  font-family : Calibri;
+  font-size : 40px;
+  font-weight : Bold;
+  color : #EE9A00;
+}
+#Text p
+{
+  text-align : justify;
+  position : absolute;
+  max-width : 800px;
+  top : 760px;
+  left : 3.5%;
+  right : 4%;
+  font-family : Century;
+  font-size : 20px;
+  color : black;
+}
+#Footer
+{
+  padding : 25px;
+  font-weight : Bold;
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 1200px;
+  position : absolute;
+  text-align : center;
+  height : 220px;
+  width : 100%;
+  background-color : black;
+}
+#FooterFB
+{
+  top : 1250px;
+  position : absolute;
+  display : block;
+  height : 35px;
+  width : 35px;
+  left : 12%;
+  -webkit-transition : -webkit-transform 1s;
+}
+#FooterFB:hover
+{
+  -webkit-transform : rotate(360deg);
+}
+#Email
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 1370px;
+  left : 3%;
+  position : absolute;
+}
+#Team
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 1310px;
+  left : 9%;
+  position : absolute;
+}
+#Team:hover
+{
+  color : orange;
+}
+#map {
+        position: relative;
+        
+      }
+#map iframe {
+        position: absolute;
+        top: 1200px;
+        left: 75%;;
+        width: 300px !important;
+        height: 200px !important;
+    }
+#FB_Integration
+{
+  position : relative;
+}
+#FB_Integration iframe
+{
+  position : absolute;
+  top : 730px;
+  left : 69%;
+  height : 290px;
+}
+
+#Zeading
+{
+  position : absolute;
+  top : 1060px;
+  left : 20%;
+  height : 35px;
+  min-width : 800px;
+  background : -webkit-radial-gradient(center, circle, #800080 0%, #7AC5CD 50%);
+  -webkit-border-radius : 5px;
+  -webkit-box-shadow : rgba(110,110,110,0.6) 8px 8px 8px;
+}
+#Zeading p
+{
+  color : white;
+  text-align : center;
+  padding : 0px;
+  font-family : Calibri;
+  font-size : 24px;
+}
+#Zeading p:hover
+{
+  color : orange;
+}
+#Prometheus
+{
+  position : absolute;
+  top : 1120px;
+  left : 20%;
+  height : 35px;
+  min-width : 800px;
+  background : -webkit-radial-gradient(center, circle, #800080 0%, #7AC5CD 50%);
+  -webkit-border-radius : 5px;
+  -webkit-box-shadow : rgba(110,110,110,0.6) 8px 8px 8px;
+}
+#Prometheus p
+{
+  color : white;
+  text-align : center;
+  padding : 0px;
+  font-family : Calibri;
+  font-size : 24px;
+}
+#Prometheus p:hover
+{
+  color : orange;
+}

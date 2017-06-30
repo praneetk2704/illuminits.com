@@ -1,0 +1,1620 @@
+#Home1, #History1, #Clubs1, #Events1, #Articles1, #Downloads1, #Team1
+{
+  font-size : 14px;
+}
+.dropdown-menu li
+{
+  font-size : 14px;
+}
+#Footer
+{
+  padding : 25px;
+  font-weight : Bold;
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+   : 3900px;
+
+  text-align : center;
+  height : 220px;
+  width : 100%;
+  background-color : black;
+}
+#FooterFB
+{
+   : 3950px;
+
+  display : block;
+  height : 35px;
+  width : 35px;
+   : 12%;
+  -webkit-transition : -webkit-transform 1s;
+}
+#FooterFB:hover
+{
+  -webkit-transform : rotate(360deg);
+}
+#Email
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+   : 4070px;
+   : 3%;
+
+}
+#Team
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+   : 4010px;
+   : 9%;
+
+}
+#Team:hover
+{
+  color : orange;
+}
+#map {
+        position: relative;
+        
+      }
+#map iframe {
+        position: absolute;
+        : 3910px;
+        : 75%;;
+        width: 300px !important;
+        height: 200px !important;
+    }
+#Text
+{
+  }
+#Text p
+{
+  text-align : center;
+  font-size : 45px;
+  font-family : Calibri;
+  color : blue;
+}
+#secy
+{
+  max-width : 86%;
+
+   : 185%;
+   : 6.5%;
+}
+#secy p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Dev
+{
+
+   : 194%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Dev:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Devt
+{
+
+   : 218%;
+   : 9%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#advisors
+{
+  max-width : 86%;
+
+   : 140%;
+   : 6.5%;
+}
+#advisors p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Yashash
+{
+
+   : 149%;
+   : 36%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Yashash:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Yashasht
+{
+
+   : 173%;
+   : 37.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Shruti
+{
+
+   : 149%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Shruti:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Shrutit
+{
+
+   : 173%;
+   : 22%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Mrinal
+{
+
+   : 149%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Mrinal:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Mrinalt
+{
+
+   : 173%;
+   : 7.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Aklank
+{
+
+   : 149%;
+   : 51%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Aklank:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Aklankt
+{
+
+   : 173%;
+   : 53.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Deepak
+{
+
+   : 149%;
+   : 66%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Deepak:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Deepakt
+{
+
+   : 173%;
+   : 65%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Bhawarnab
+{
+
+   : 149%;
+   : 81%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Bhawarnab:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Bhawarnabt
+{
+
+   : 173%;
+   : 81.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#cpatron
+{
+  max-width : 86%;
+
+   : 50%;
+   : 6.5%;
+}
+#cpatron p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Director
+{
+
+   : 59%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Director:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Directort
+{
+
+   : 83%;
+   : 7%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#patron
+{
+  max-width : 86%;
+
+   : 50%;
+   : 44.5%;
+}
+#patron p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Dean
+{
+
+   : 59%;
+   : 42%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Dean:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Deant
+{
+
+   : 83%;
+   : 43%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#chairman
+{
+  max-width : 86%;
+
+   : 50%;
+   : 84%;
+}
+#chairman p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Nalin
+{
+
+   : 59%;
+   : 82.5%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Nalin:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Nalint
+{
+
+   : 83%;
+   : 81%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#alumni
+{
+  max-width : 86%;
+
+   : 95%;
+   : 6.5%;
+}
+#alumni p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Anurag
+{
+
+   : 104%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Anurag:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Anuragt
+{
+
+   : 128%;
+   : 8.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Bhaskar2
+{
+
+   : 104%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Bhaskar2:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Bhaskar2t
+{
+
+   : 128%;
+   : 23.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#club
+{
+  max-width : 86%;
+
+   : 230%;
+   : 6.5%;
+}
+#club p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Pranshu
+{
+
+   : 239%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Pranshu:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Pranshut
+{
+
+   : 263%;
+   : 7.3%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Chinmoy
+{
+
+   : 239%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Chinmoy:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Chinmoyt
+{
+
+   : 263%;
+   : 21%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Vikas
+{
+
+   : 239%;
+   : 36%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Vikas:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Vikast
+{
+
+   : 263%;
+   : 37.7%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Debakshi
+{
+
+   : 239%;
+   : 51%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Debakshi:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Debakshit
+{
+
+   : 263%;
+   : 53%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Sonal
+{
+
+   : 239%;
+   : 66%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Sonal:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Sonalt
+{
+
+   : 263%;
+   : 68%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Mayuri
+{
+
+   : 239%;
+   : 81%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Mayuri:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Mayurit
+{
+
+   : 263%;
+   : 83%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Deepa
+{
+
+   : 274%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Deepa:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Deepat
+{
+
+   : 298%;
+   : 8%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Nitin
+{
+
+   : 274%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Nitin:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Nitint
+{
+
+   : 298%;
+   : 22%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Manish
+{
+
+   : 274%;
+   : 36%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Manish:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Manisht
+{
+
+   : 298%;
+   : 38.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Shrinjay
+{
+
+   : 274%;: 51%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Shrinjay:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Shrinjayt
+{
+
+   : 298%;
+   : 52%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Pankaj
+{
+
+   : 274%;
+   : 66%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Pankaj:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Pankajt
+{
+
+   : 298%;
+   : 67.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Atul
+{
+
+   : 274%;
+   : 81%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Atul:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Atult
+{
+
+   : 298%;
+   : 83.8%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#second
+{
+  max-width : 86%;
+
+   : 310%;
+   : 6.5%;
+}
+#second p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Yogesh
+{
+
+   : 319%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Yogesh:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Yogesht
+{
+
+   : 343%;
+   : 7.2%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Mayukh
+{
+
+   : 319%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Mayukh:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Mayukht
+{
+
+   : 343%;
+   : 23.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Ashraful
+{
+
+   : 319%;
+   : 36%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Ashraful:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Ashrafult
+{
+
+   : 343%;
+   : 37.7%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Aishwarya
+{
+
+   : 319%;
+   : 51%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Aishwarya:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Aishwaryat
+{
+
+   : 343%;
+   : 51.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Dixita
+{
+
+   : 319%;
+   : 66%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Dixita:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Dixitat
+{
+
+   : 343%;
+   : 67.6%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Saurabh
+{
+
+   : 319%;
+   : 81%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Saurabh:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Saurabht
+{
+
+   : 343%;
+   : 81%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Panchali
+{
+
+   : 354%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Panchali:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Panchalit
+{
+
+   : 378%;
+   : 7.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Praneet
+{
+
+   : 354%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Praneet:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Praneett
+{
+
+   : 378%;
+   : 22.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Amit
+{
+
+   : 354%;
+   : 36%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Amit:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Amitt
+{
+
+   : 378%;
+   : 38.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Mahwish
+{
+
+   : 354%;
+   : 51%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Mahwish:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Mahwisht
+{
+
+   : 378%;
+   : 52.3%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Bhaskar
+{
+
+   : 354%;
+   : 66%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Bhaskar:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Bhaskart
+{
+
+   : 378%;
+   : 67.2%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Ritu
+{
+
+   : 354%;
+   : 81%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Ritu:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Ritut
+{
+
+   : 378%;
+   : 84.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Ravi
+{
+
+   : 389%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Ravi:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Ravit
+{
+
+   : 413%;
+   : 8%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Divyanshu
+{
+
+   : 389%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Divyanshu:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Divyanshut
+{
+
+   : 413%;
+   : 22%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Shubham
+{
+
+   : 389%;
+   : 36%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Shubham:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Shubhamt
+{
+
+   : 413%;
+   : 37.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Shah
+{
+
+   : 389%;
+   : 51%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Shah:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Shaht
+{
+
+   : 413%;
+   : 51%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Trisha
+{
+
+   : 389%;
+   : 66%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Trisha:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Trishat
+{
+
+   : 413%;
+   : 67%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Shiv
+{
+
+   : 389%;
+   : 81%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Shiv:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Shivt
+{
+
+   : 413%;
+   : 81.6%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Anirban
+{
+
+   : 424%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Anirban:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Anirbant
+{
+
+   : 448%;
+   : 8.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Siddhartha
+{
+
+   : 424%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Siddhartha:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Siddharthat
+{
+
+   : 448%;
+   : 23%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Shivam
+{
+
+   : 424%;
+   : 36%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Shivam:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Shivamt
+{
+
+   : 448%;
+   : 38%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Animesh
+{
+
+   : 424%;
+   : 51%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Animesh:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Animesht
+{
+
+   : 448%;
+   : 52.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Dayanand
+{
+
+   : 424%;
+   : 66%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Dayanand:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Dayanandt
+{
+
+   : 448%;
+   : 69%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Binay
+{
+
+   : 424%;
+   : 66%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Binay:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Binayt
+{
+
+   : 448%;
+   : 69%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#first
+{
+  max-width : 86%;
+
+   : 460%;
+   : 6.5%;
+}
+#first p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Shikher
+{
+
+   : 469%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Shikher:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Shikhert
+{
+
+   : 493%;
+   : 4.3%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Supraja
+{
+
+   : 469%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Supraja:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Suprajat
+{
+
+   : 493%;
+   : 22%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Harini
+{
+
+   : 469%;
+   : 36%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Harini:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Harinit
+{
+
+   : 493%;
+   : 37%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Abhishek
+{
+
+   : 469%;
+   : 51%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Abhishek:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Abhishekt
+{
+
+   : 493%;
+   : 50%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Nivedita
+{
+
+   : 469%;
+   : 66%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Nivedita:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Niveditat
+{
+
+   : 493%;
+   : 67.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Khushboo
+{
+
+   : 469%;
+   : 81%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Khushboo:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Khushboot
+{
+
+   : 493%;
+   : 82.3%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Vaibhav
+{
+
+   : 504%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Vaibhav:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Vaibhavt
+{
+
+   : 528%;
+   : 7.7%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Pratik
+{
+
+   : 504%;
+   : 21%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Pratik:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Pratikt
+{
+
+   : 528%;
+   : 20.3%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#Shankhadeep
+{
+
+   : 504%;
+   : 36%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Shankhadeep:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Shankhadeept
+{
+
+   : 528%;
+   : 36.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}
+#designer
+{
+  max-width : 86%;
+
+   : 540%;
+   : 6.5%;
+}
+#designer p
+{
+  text-align : ;
+  font-size : 25px;
+  font-family : Tahoma;
+  color : black;
+  text-decoration : underline;
+}
+#Prantik
+{
+
+   : 549%;
+   : 6%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Prantik:hover
+{
+  -webkit-filter : brightness(70%);  
+}
+#Prantikt
+{
+
+   : 573%;
+   : 7.5%;
+  font : Tahoma;
+  color : #4B0082;
+  font-size : 15px;
+  font-weight : bold;
+}

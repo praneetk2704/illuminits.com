@@ -1,0 +1,96 @@
+#Title
+{
+  position : absolute;
+  max-width : 300px;
+  top : 33.5%;
+  left : 43%;
+}
+#Title p
+{
+  font-size : 40px;
+  text-align : center;
+}
+.sexy_line 
+{ 
+    left : 20%;
+    position : relative;
+    top : 275px;
+    height: 1px;
+	max-width : 800px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+#Text
+{
+  max-width : 86%;
+  position : absolute;
+  top : 47%;
+  margin-left : 7.5%;
+}
+#Text p
+{
+  text-align : justify;
+  font-size : 26px;
+  font-family : Calibri;
+}
+#Footer
+{
+  padding : 25px;
+  font-weight : Bold;
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 950px;
+  position : absolute;
+  text-align : center;
+  height : 220px;
+  width : 100%;
+  background-color : black;
+}
+#FooterFB
+{
+  top : 1000px;
+  position : absolute;
+  display : block;
+  height : 35px;
+  width : 35px;
+  left : 12%;
+  -webkit-transition : -webkit-transform 1s;
+}
+#FooterFB:hover
+{
+  -webkit-transform : rotate(360deg);
+}
+#Email
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 1120px;
+  left : 3%;
+  position : absolute;
+}
+#Team
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 1060px;
+  left : 9%;
+  position : absolute;
+}
+#Team:hover
+{
+  color : orange;
+}
+#map {
+        position: relative;
+        
+      }
+#map iframe {
+        position: absolute;
+        top: 960px;
+        left: 75%;;
+        width: 300px !important;
+        height: 200px !important;
+    }

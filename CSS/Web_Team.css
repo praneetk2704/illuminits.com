@@ -1,0 +1,159 @@
+
+#bandw img
+{
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -o-transition:1s;
+  -ms-transition:1s;
+  -moz-transition:1s;
+  -webkit-transition:1s;
+}
+#bandw img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+#Praneet_Bio
+{
+  color : #4B0082;
+  text-align : center;
+  top : 110%;
+  font-family : Calibri;
+  font-weight : Bold;
+  font-size : 20px;
+  left : 11%;
+  padding : 20px;
+}
+#Tarun_Bio
+{
+  color : #4B0082;
+ text-align : center;
+  top : 112.5%;
+  font-family : Calibri;
+  font-weight : Bold;
+  font-size : 20px;
+  left : 58%;
+}
+.Web_Team h3
+{
+  font-size : 30px;
+  top : 33%;
+  position : absolute;
+  text-align : center;
+
+}
+.sexy_line 
+{ 
+    top : 275px;
+    height: 1px;
+	max-width : 800px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+#Praneet_FB
+{
+  top : 850px;
+
+  height : 50px;
+  width : 50px;
+  left : 22%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Tarun_FB
+{
+  top : 850px;
+  p
+  height : 50px;
+  width : 50px;
+  left : 70%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Praneet_LinkedIn
+{
+  
+  
+  height : 50px;
+  width : 50px;
+  left : 27%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Tarun_LinkedIn
+{
+
+  height : 50px;
+  width : 50px;
+  left : 75%;
+  -o-transition:0.5s;
+  -ms-transition:0.5s;
+  -moz-transition:0.5s;
+  -webkit-transition:0.5s;
+}
+#Footer
+{
+  padding : 25px;
+  font-weight : Bold;
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 950px;
+  position : absolute;
+  text-align : center;
+  height : 220px;
+  width : 100%;
+  background-color : black;
+}
+#FooterFB
+{
+  top : 1000px;
+  position : absolute;
+  display : block;
+  height : 35px;
+  width : 35px;
+  left : 12%;
+  -webkit-transition : -webkit-transform 1s;
+}
+#FooterFB:hover
+{
+  -webkit-transform : rotate(360deg);
+}
+#Email
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 1120px;
+  left : 3%;
+ 
+}
+#Team
+{
+  font-family : Cambria;
+  font-size : 20px;
+  color : #969696;
+  top : 1060px;
+  left : 9%;
+
+}
+#Team:hover
+{
+  color : orange;
+}
+#map {
+        
+      }
+#map iframe {
+     
+        top: 960px;
+        left: 75%;;
+        width: 300px !important;
+        height: 200px !important;
+    }
